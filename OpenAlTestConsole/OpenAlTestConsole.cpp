@@ -1,6 +1,3 @@
-// OpenAlTestConsole.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
-
 #include "al.h" 
 #include "alc.h"
 #include "alext.h"
@@ -13,4 +10,5 @@ int main()
     auto device = alcOpenDevice(NULL);
 
     std::cout << "Device created\n";
+    system("pause");
 }
